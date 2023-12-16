@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body><h1>Bai 1</h1>
+<input type="number" id="st1">
+<button onclick="luu()"> save</button>
+<h1 id="age"></h1>
+<script>
+    function luu() {
+        let number1 = document.getElementById('st1').value;
+        document.getElementById("age").innerHTML = "age: " + number1
+        console.log('age' + number1)}
+</script>
+<hr>
+<h1>Bài 2</h1>
+<script>
+    let number2 = 20
+    let number3 = 30
+    document.write(number2+number3)
+    alert(number2+number3)
+    console.log(number2+number3)
+</script>
+<hr>
+<h1>Bài 3</h1>
+<script>
+    let a = 10
+    let b = 5
+    let c = 20
+    let d = 8
+    console.log(a+b*c-d/2)
+    alert(a+b*c-d/2)
+    document.write(a+b*c-d/2)
+</script>
+<hr>
+<h1>Bài 4</h1>
+<input type="number" id="so1">
+<input type="number" id="so2">
+<br
+<button onclick="tinhtong()">addtion(+)</button>
+<h1 id="tong"></h1>
+<script>
+    function tinhtong() {
+        let so1 = document.getElementById('so1').value
+        let so2 = document.getElementById('so2').value
+        document.getElementById("tong").innerHTML = "Kết quả: " + (so1 + so2)
+    }
+</script>
+<hr>
+<h1>Bổ sung bài 1</h1>
+<script>
+    let so = prompt('nhập số tuổi:')
+    console.log(so)
+</script>
+</body>
+</html>
